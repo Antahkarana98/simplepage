@@ -1,0 +1,89 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Custom design below! */
+header {
+  background: url('../images/background.png');
+  color: #fff;
+  padding: 250px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+header .container {
+  width: 900px;
+  margin: auto;
+}
+
+header .container p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #d4d4d4;
+}
+
+main .container {
+  display: flex;
+  justify-content: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #2C2B2B;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+li a{
+  text-decoration: none;
+  color: #1EDD88;
+  display: inline-block;
+  margin: 0px 10px;
+  margin-top: 50px;
+
+}
+
+footer p{
+
+  text-align: center;
+  color: #d4d4d4;
+  padding-bottom: 30px;
+}
+
+footer p span{
+  color: red;
+  font-size: 25px;
+}
